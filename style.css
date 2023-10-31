@@ -1,0 +1,248 @@
+
+body{
+    color: #e1bbd9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.background {
+    background-image: linear-gradient(to bottom, #3c0c5b, #3c0c5b, #520c61,  black);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+#inicio {
+    background: rgba(255, 255, 255, 0.404);
+    border: none;
+    border-radius: 50%;
+    padding: 0.5% 1.69%;
+    font-weight: 1000;
+    font-size: 142%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+
+#inicio:hover{
+    background-color: #e1bbd9;
+}
+
+
+#logo{
+    width: 10%;
+    min-height: 60px;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1.5%;
+}
+
+.logo {
+    width: 100%;
+    min-height: 100px;
+}
+
+
+.menu {
+   
+    color:  #3c0c5b;
+    padding: 0 1%;
+    position: absolute;
+    right: 1%;
+    top: 4%;
+}
+
+
+a:link {
+    color: #8d769A;
+}
+  
+a:visited {
+  color: #8d769A;
+}
+
+a:hover {
+  color: #7c1779;
+}
+
+a:active {
+  color: #b862a8;
+}
+
+
+#sobre {
+    border: 5px solid white;
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+.sobre-imagem {
+    margin: 2%;
+    padding: 2%;
+    width: 50%;
+    min-height: 70px;
+    
+    display: inline-block;
+}
+
+.sobre-texto {
+    padding-top: 5%;
+    
+    margin: 0% auto 1% 1%;
+    display: inline-block;
+}
+
+
+#home{
+    border: 5px solid black;
+
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+.home-logo{
+    margin: 2% 1% 2% auto;
+    padding: 2%;
+    width: 50%;
+    min-height: 50px;
+
+}
+
+.home-texto {
+    padding-top: 5%;
+    margin: 0% auto 1% 1%;
+    display: inline-block;
+
+}
+
+#direita {
+           background-position: right;
+
+}
+
+#sectionp {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+
+
+}
+
+
+#section1 {
+    
+    border: 3px solid #000;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 225px;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 100% 100%;
+}
+
+@keyframes slide{
+    0%{background-image: url(imag/P665fdf65e67f7753bffea3367c38384a.jpg);}
+    50%{background-image: url(imag/P756fd26fba02ae68e78831b03f950dc7.jpg);}
+    100%{background-image: url(imag/Paf3b856e5af6396a4b413788367026b5.jpg);}
+
+  }
+
+#section2 {
+    border: 3px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 30%;
+    height: 225px;
+    animation-name: slide2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 100% 100%;
+}
+
+@keyframes slide2{
+    0%{background-image: url(imag/A1884e59ab2d93cb0cd357c106ef5c732.jpg);}
+    50%{background-image: url(imag/A940b87d4630298bb0fb47d4fd2c02a48.jpg);}
+    100%{background-image: url(imag/Aa873dc6087b83f2e32fb865b24c3e3d8.jpg);}
+
+  }
+
+#section3 {
+    border: 3px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 30%;
+    height: 225px;
+    animation-name: slide3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 100% 100%;
+}
+
+@keyframes slide3{
+    0%{background-image: url(imag/C33ef3c30f1196b4c4a6023beb5dbb21d.jpg);}
+    50%{background-image: url(imag/C6bdeeca5f492e21da03f831a6b3c4d0c.jpg);}
+    100%{background-image: url(imag/C9c9d46deae2e70ad96db9dd770619f55.jpg);}
+
+  }
+
+#section4 {
+    border: 3px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 30%;
+    height: 225px;
+    margin-right: 25px;
+    animation-name: slide4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 100% 100%;
+}
+
+@keyframes slide4{
+    0%{background-image: url(imag/B146a0947c879b6779f3939635c88f8e3.jpg);}
+    50%{background-image: url(imag/B87baa6b9b9cb78420dca2a2a5258476a.jpg);}
+    100%{background-image: url(imag/Ba638883b747700a17cc77330d43771da.jpg);}
+
+  }
+
+#contato {
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+#contato button {
+    border: 2px solid #e1bbd9;
+    border-radius: 20px;
+    margin: auto;
+    width: 7%;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#contato button:hover {
+    background-color: rgb(133, 41, 194);
+    border: 2px solid rgb(133, 41, 194);
+    width: 8%;
+    height: 27px;
+    color: #b862a8;
+}
